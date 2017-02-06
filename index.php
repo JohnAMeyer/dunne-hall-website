@@ -42,8 +42,8 @@
 				<div class="row-fluid">
 					<div class="col-md-7 col-md-offset-1">
 						<div class="well">
-							<h2 style="margin-top: 0px; width:100%;">Dunne Hall Calendar</h2>
-							<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=nd.edu_f4ui4q2m7uu6rch648rgegf580%40group.calendar.google.com&amp;color=%236B3304&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+							<h2 style="margin-top: 0px;">Dunne Hall Calendar</h2>
+							<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=nd.edu_f4ui4q2m7uu6rch648rgegf580%40group.calendar.google.com&amp;color=%236B3304&amp;ctz=America%2FNew_York" style="border-width:0" style="width:100%;height:600px" frameborder="0" scrolling="no"></iframe>
 						</div>
 					</div>
 					<div class="col-md-3">
