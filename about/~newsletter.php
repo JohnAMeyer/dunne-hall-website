@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<?php require "./includes/head.php"; ?>
+	<?php require "../includes/head.php"; ?>
 	<title></title>
 	<style type="text/css">
 		p.indented {
@@ -10,13 +10,13 @@
 	</style>
 </head>
 <body style="background-color:#0c343d;">
-	<?php require "./includes/body.php" ?>
-	<?php require "./includes/menugallery.php" ?>
+	<?php require "../includes/body.php" ?>
+	<?php require "../includes/menugallery.php" ?>
 	<div class="container-fluid">
 		<div class="row-fluid">
 			<div class="col-md-10 col-md-offset-1" style="background-color: #fff">
 				<div class="row-fluid">
-					<h1 class="text-center">Parent's Info</h1>
+					<h1 class="text-center">Newsletter</h1>
 					<p class="indented">
 						Spicy jalapeno bacon ipsum dolor amet prosciutto kevin pork loin flank corned beef tri-tip. Ham short loin turkey tail spare ribs jerky. Tenderloin ham alcatra meatloaf drumstick, pork belly shoulder shank sausage t-bone filet mignon. Turkey chicken tongue flank filet mignon biltong, ribeye meatball short ribs fatback. Prosciutto filet mignon doner ham hock ham turkey salami, tongue frankfurter hamburger landjaeger cupim tri-tip drumstick flank. Turkey filet mignon pork tail boudin, kielbasa fatback strip steak biltong ham venison hamburger pancetta jerky.
 					</p>
@@ -29,5 +29,6 @@
 				</div>
 			</div>
 		</div>
-	</body>
-	</html>
+	</div>
+</body>
+</html>
