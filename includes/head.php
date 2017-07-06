@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link href="/<?php if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false) echo 'dunne'; ?>/styles/bootstrap.min.css" rel="stylesheet">
+<link href="/<?php if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false) echo 'dunne/'; ?>styles/bootstrap.min.css" rel="stylesheet">
 <style type="text/css">
 	@media (min-width: 768px) {
 		.nav  li {

@@ -1,7 +1,7 @@
 <?php
 $root = '/';
 if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false)
-	$root = '/dunne';
+	$root = '/dunne/';
 ?>
 
 <div class="container-fluid" style="position: absolute;z-index: 100; width: 100%">
@@ -25,15 +25,15 @@ if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false)
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="<?php echo $root ?>/about/leaders.php">Leadership</a></li>
+								<li><a href="<?php echo $root ?>about/leaders.php">Leadership</a></li>
 								<!--li><a href="<?php echo $root ?>/about/dunne.php">J. Dunne</a></li-->
-								<li><a href="<?php echo $root ?>/about/identity.php">Identity</a></li>
+								<li><a href="<?php echo $root ?>about/identity.php">Identity</a></li>
 							</ul>
 						</li>
 						<!--li><a href="#">Alumni</a></li-->
-						<li><a href="<?php echo $root ?>/freshmen.php">Freshmen</a></li>
-						<li><a href="<?php echo $root ?>/events.php">Events</a></li>
-						<li><a href="<?php echo $root ?>/food.php">Food</a></li>
+						<li><a href="<?php echo $root ?>freshmen.php">Freshmen</a></li>
+						<li><a href="<?php echo $root ?>events.php">Events</a></li>
+						<li><a href="<?php echo $root ?>food.php">Food</a></li>
 					</ul>
 				</div>
 			</nav>
