@@ -43,14 +43,12 @@
 								<div class="media-body media-middle">
 									<h4 class="media-heading">Rev. Matt Kuczora, C.S.C.</h4>
 									<p class="indented">
-										Fr. Matthew Kuczora, C.S.C., is a Holy Cross priest originally from Marion, Indiana. He graduated from Notre Dame in 2005 with a degree in Accounting and again in 2011 with a
-										Master of Divinity. During his time as an undergraduate and during a year of post-graduate service, Fr. Matt discerned a call to religious life and priesthood. He is passionate
-										about poverty ministry and educational work among young adults. He has a particular interest in the Church and history of Latin America. Upon the profession of his perpetual vows
-										in the Congregation of Holy Cross in 2011, Fr. Matt began an assignment as Director of Postulant Seminarians and as Vocation Director for his religious community in Monterrey, Mexico.
-										In his "free time," Fr. Matt served at Nuestra Madre Santísima de La Luz parish in an urban working class neighborhood. Additionally, Fr. Matt has worked abroad in a number of contexts
-										including in India, Honduras, and Spain. Fr. Matt joins us from Carroll Hall, having served as its Rector in 2015-2016. Previously, he served as a guest scholar at the Kellogg Institute
-										and as a priest-in-residence at his former residence, St. Edward's Hall. Fr. Matt enjoys fishing, hiking, and playing sports. He currently teaches a number of business ethics classes
-										in the Mendoza College of Business.
+										Rev. Matt Kuczora, C.S.C., serves as the rector of the Dunne hall. Fr. Matt is a Holy Cross priest originally from Marion, Indiana. He graduated from Notre Dame
+										in 2005 with a degree in Accounting and again in 2011 with a Master of Divinity. During his time as an undergraduate and during a year of post-graduate service,
+										Fr. Matt discerned a call to religious life and priesthood. He is passionate about poverty ministry and educational work among young adults. Upon the profession of
+										his perpetual vows in the Congregation of Holy Cross in 2011, Fr. Matt began an assignment as Director of Postulant Seminarians and as Vocation Director for his
+										religious community in Monterrey, Mexico. Along with his work as a rector, Fr. Matt teaches a Theology course and a Business Ethics course at Notre Dame and he is
+										also the Assistant Vocation Director for the Congregation of Holy Cross focusing on campus initiatives.
 									</p>
 								</div>
 							</div>
@@ -62,7 +60,17 @@
 								<div class="media-body media-middle">
 									<h4 class="media-heading">Rev. Kevin G. Grove, C.S.C.</h4>
 									<p class="indented">
-										Fr. Kevin loves the outdoors, mountain sports, farming, literature, and the occasional opportunity to do some woodworking. On account of these loves and his upbringing, he confesses he is probably the worst video game player in the world. As a new resident of Dunne Hall, Fr. Kevin is enjoys participating directly in the Holy Cross residential model. Fr. Kevin was born and raised on a family farm and ranch outside of Hobson, Montana and was ordained a Holy Cross priest in 2010. As an undergraduate, Fr. Kevin studied at Seattle University, where he earned degrees in History, Philosophy, and English Literature. Upon graduation in 2004, he joined Holy Cross and entered formation at Moreau Seminary, completing his M.Div. at Notre Dame in 2009. Fr. Kevin spent his deacon year at St. Joseph Parish, South Bend and his first year as a priest at Christ the King Parish in South Bend. He then took up doctoral studies in 2011 in philosophical theology at the University of Cambridge, England on memory in St. Augustine. His secondary research is on the theology of Basil Moreau and Holy Cross spirituality. While in Cambridge, Fr. Kevin was a member of Trinity College, a Gates Cambridge Scholar, and the assistant Roman Catholic chaplain to the university community—undergrad, grad, and faculty. After a post-doc at L’Institut Catholique of Paris, France, Fr. Kevin returned to Notre Dame in 2015 as a faculty research fellow in the Notre Dame Institute for Advanced Study (NDIAS). In fall 2016, he joined the Notre Dame Theology department as an assistant professor. Fr. Kevin is the coeditor of the first edition of The Cross, Our Only Hope and Basil Moreau: Essential Writings, as well as You Have Redeemed the World: Praying the Stations in the Holy Cross Tradition.
+										Fr. Kevin loves the outdoors, mountain sports, farming, literature, and the occasional opportunity to do some woodworking. On account of these loves and his
+										upbringing, he confesses he is probably the worst video game player in the world. As a new resident of Dunne Hall, Fr. Kevin is enjoys participating directly in the
+										Holy Cross residential model. Fr. Kevin was born and raised on a family farm and ranch outside of Hobson, Montana and was ordained a Holy Cross priest in 2010. As an
+										undergraduate, Fr. Kevin studied at Seattle University, where he earned degrees in History, Philosophy, and English Literature. Upon graduation in 2004, he joined
+										Holy Cross and entered formation at Moreau Seminary, completing his M.Div. at Notre Dame in 2009. Fr. Kevin spent his deacon year at St. Joseph Parish, South Bend
+										and his first year as a priest at Christ the King Parish in South Bend. He then took up doctoral studies in 2011 in philosophical theology at the University of 
+										Cambridge, England on memory in St. Augustine. His secondary research is on the theology of Basil Moreau and Holy Cross spirituality. While in Cambridge, Fr. Kevin
+										was a member of Trinity College, a Gates Cambridge Scholar, and the assistant Roman Catholic chaplain to the university community—undergrad, grad, and faculty.
+										After a post-doc at L’Institut Catholique of Paris, France, Fr. Kevin returned to Notre Dame in 2015 as a faculty research fellow in the Notre Dame Institute
+										for Advanced Study (NDIAS). In fall 2016, he joined the Notre Dame Theology department as an assistant professor. Fr. Kevin is the coeditor of the first edition
+										of The Cross, Our Only Hope and Basil Moreau: Essential Writings, as well as You Have Redeemed the World: Praying the Stations in the Holy Cross Tradition.
 									</p>
 								</div>
 								<div class="media-right media-middle">
