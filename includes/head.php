@@ -18,7 +18,7 @@
 			content: "• ";
 		}
 	}
-	@media (max-width: 990px) and (min-width: 768px) {
+	@media (max-width: 1199px) and (min-width: 768px) {
 		nav.navbar{
 			border-radius: 0px;
 		}

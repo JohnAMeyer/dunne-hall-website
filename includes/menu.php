@@ -6,7 +6,7 @@ if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false)
 
 <div class="container-fluid" style="position: absolute;z-index: 100; width: 100%">
 	<div class="row">
-		<div class="nav-parent col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+		<div class="nav-parent col-xs-12 col-lg-8 col-lg-offset-2">
 			<nav class="navbar navbar-default">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
