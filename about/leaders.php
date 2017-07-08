@@ -206,6 +206,11 @@
 											Hey guys, my name is Chris Boldt and I'm pretty hyped to get to meet you all! I'm from Southern California, and while I won't claim I fit the stereotype (i.e organic foods, Priuses, and hipsters) I love hitting up my favorite taco trucks while driving my Subaru to the beach for a surf... so you decide. My time at Notre Dame has been incredible, largely in part to my passionate professors and friends who have made Notre Dame such a special place. I'm a Science Pre-Professional major and hope to attend medical school after graduation. You'll probably see me around campus fishing on St. Mary's Lake as the President of the Fishing Club, swimming at Rolfs, or skating to Chipotle (even if guac is extra). I love The Killers, play the banjo, and surf/freeze on the Great Lakes. Cruise by 324 to play NCAA 2014 (RIP), watch Pac-12 sports at 2 am. or just hang out. Really looking forward to meeting you all!							
 										</p>
 									</div>
+									<div class="media-left media-middle">
+										<a href="#">
+											<img class="img-rounded" src="../img/people/boldt.jpg" />
+										</a>
+									</div>
 								</div>
 								<div class="media">
 									<div class="media-left media-middle">
