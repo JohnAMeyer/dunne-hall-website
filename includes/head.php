@@ -4,7 +4,7 @@
 <link href="/<?php if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false) echo 'dunne/'; ?>styles/bootstrap.min.css" rel="stylesheet">
 <style type="text/css">
 	@media (min-width: 768px) {
-		.nav  li {
+		.nav > li {
 			width:25%
 		}
 	}
