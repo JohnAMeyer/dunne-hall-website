@@ -39,4 +39,9 @@
 	.home-link {
 		cursor: pointer;
 	}
+	@media (max-width: 990px){
+		#gallery {
+			margin-top: 5px;
+		}
+	}
 </style>
