@@ -16,12 +16,12 @@
 		#bios #ra img {
 			max-height: 175px;
 		}
-		img.img-responsive {
+		#bios img.img-responsive {
 			display: initial;
 		}
 	</style>
 </head>
-<body style="background-color:#0c343d;">
+<body>
 	<?php require "../includes/body.php" ?>
 	<?php require "../includes/menugallery.php" ?>
 	<div id="bios" class="container-fluid">

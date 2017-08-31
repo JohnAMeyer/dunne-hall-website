@@ -3,7 +3,14 @@ $root = '/';
 if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false)
 	$root = '/dunne/';
 ?>
-
+<nav class="nd-brand nd-grey">
+	<div class="nd-row nd-row-container">
+		<ul class="nd-column">
+			<li class="nd-dept-nd"><a href="https://www.nd.edu/">University <i>of</i> Notre Dame</a></li>
+			<li class="nd-dept nd-dept-staf"><a href="http://studentaffairs.nd.edu/">Division <i>of</i> Student Affairs</a></li>
+		</ul>
+	</div>
+</nav>
 <div class="container-fluid" style="position: absolute;z-index: 100; width: 100%">
 	<div class="row">
 		<div class="nav-parent col-xs-12 col-lg-8 col-lg-offset-2">
@@ -16,11 +23,11 @@ if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false)
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand hidden-sm hidden-md hidden-lg hidden-xl home-link">Dunne Hall</a>
+					<a class="navbar-brand home-link">Dunne Hall</a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav text-center" style="width:100%">
+					<ul class="nav navbar-nav text-center">
 						<!--li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li-->
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
@@ -28,6 +35,7 @@ if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false)
 								<li><a href="<?php echo $root ?>about/leaders.php">Leadership</a></li>
 								<!--li><a href="<?php echo $root ?>/about/dunne.php">J. Dunne</a></li-->
 								<li><a href="<?php echo $root ?>about/identity.php">Identity</a></li>
+								<li><a href="<?php echo $root ?>about/newsletter.php">Newsletter</a></li>
 							</ul>
 						</li>
 						<!--li><a href="#">Alumni</a></li-->

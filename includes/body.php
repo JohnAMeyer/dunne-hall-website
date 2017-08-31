@@ -11,5 +11,18 @@ if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false)
 		$(".home-link").click(function(){
 			location.href = "<?php echo $root ?>";
 		});
+
+		if($(document).height()  == $(window).height()){
+			$("footer").css("position","absolute").css("bottom","0px");
+		}else{
+			$("footer").css("position","initial").css("bottom","initial");
+		}
+		$(window).resize(function(){
+			if($(document).height()  == $(this).height()){
+				$("footer").css("position","absolute").css("bottom","0px");
+			}else{
+				$("footer").css("position","initial").css("bottom","initial");
+			}
+		});
 	});
 </script>

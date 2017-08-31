@@ -9,7 +9,7 @@
 		}
 	</style>
 </head>
-<body style="background-color:#0c343d;">
+<body>
 	<?php require "../includes/body.php" ?>
 	<?php require "../includes/menugallery.php" ?>
 	<div class="container-fluid">
