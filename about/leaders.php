@@ -43,12 +43,13 @@
 								<div class="media-body media-middle">
 									<h4 class="media-heading">Rev. Matt Kuczora, C.S.C.</h4>
 									<p class="indented">
-										Rev. Matt Kuczora, C.S.C., serves as the rector of the Dunne hall. Fr. Matt is a Holy Cross priest originally from Marion, Indiana. He graduated from Notre Dame
-										in 2005 with a degree in Accounting and again in 2011 with a Master of Divinity. During his time as an undergraduate and during a year of post-graduate service,
-										Fr. Matt discerned a call to religious life and priesthood. He is passionate about poverty ministry and educational work among young adults. Upon the profession of
-										his perpetual vows in the Congregation of Holy Cross in 2011, Fr. Matt began an assignment as Director of Postulant Seminarians and as Vocation Director for his
-										religious community in Monterrey, Mexico. Along with his work as a rector, Fr. Matt teaches a Theology course and a Business Ethics course at Notre Dame and he is
-										also the Assistant Vocation Director for the Congregation of Holy Cross focusing on campus initiatives.
+										Fr. Matthew Kuczora, C.S.C., is a Holy Cross priest originally from Marion, Indiana. He graduated from Notre Dame in 2005 with a degree in Accounting and again in 2011 with a Master of Divinity. During his time as an undergraduate and during a year of post-graduate service, Fr. Matt discerned a call to religious life and priesthood. He is passionate about poverty ministry and educational work among young adults. He has a particular interest in the Church and history of Latin America. Upon the profession of his perpetual vows in the Congregation of Holy Cross in 2011, Fr. Matt began an assignment as Director of Postulant Seminarians and as Vocation Director for his religious community in Monterrey, Mexico. In his "free time," Fr. Matt served at Nuestra Madre Santísima de La Luz parish in an urban working class neighborhood. Additionally, Fr. Matt has worked abroad in a number of contexts including in India, Honduras and Spain.
+									</p>
+									<p class="indented">
+										Fr. Matt lived in St. Edward's Hall for four years as an undergraduate where he served as hall president and as an RA. Fr. Matt returned to St. Ed's as a priest in-residence before serving as the rector of Carroll Hall.  In addition to his current role as the rector of Dunne Hall, Fr. Matt teaches a Business Ethics course for sophomores and a theology course on Latino Catholicism in the United States.  He also works in the Office of Vocations for the Congregation of Holy Cross, directing discernment and recruiting efforts on campus at Notre Dame.  
+									</p>
+									<p class="indented">
+										While he enjoys fishing, hiking, and playing sports, Fr. Matt is a terrible singer and ends every day begging God to send him residents with musical talent for the Dunne chapel choir.
 									</p>
 								</div>
 							</div>

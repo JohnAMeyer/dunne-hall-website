@@ -22,7 +22,7 @@
 					<div class="col-md-6 col-md-offset-1">
 						<div class="well">
 							<p class="indented">
-								Dunne is in just its second year which means that we are still forming who we are and what we want we want to be. Though we do not have many traditions, we do have some basic qualities that identify who we are. Dunne is proud of its community and its willingness to adapt to new events, ideas, qualities, or traditions. We hope whoever comes through Dunne’s doors will be just as willing to contribute to the community and establish Dunne Hall as one of the premier dorms on campus. 
+								Dunne is in just its second year which means that we are still forming who we are and what we want to be. Though we do not have many traditions, we do have some basic qualities that identify who we are. Dunne is proud of its community and its willingness to adapt to new events, ideas, qualities, or traditions. We hope whoever comes through Dunne’s doors will be just as willing to contribute to the community and establish Dunne Hall as one of the premier dorms on campus. 
 							</p>
 							<h3>Dorm Mascot, Motto and Colors</h3>
 							<p class="indented">

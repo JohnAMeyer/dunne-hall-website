@@ -97,16 +97,16 @@ $title = "Dunne Hall";
 		background-color: #fff;
 		color:#666;
 	}
-	a:active {
+	footer a:active {
 		color: #aa272f;
 	}
-	a:hover {
+	footer a:hover {
 		color: #002b5b;
 	}
-	a:visited {
+	footer a:visited {
 		color: #4a3651;
 	}
-	a {
+	footer a {
 		color: #004da3;
 		outline: none;
 		-webkit-tap-highlight-color: rgba(0,0,0,0);
