@@ -74,9 +74,6 @@ $title = "Dunne Hall";
 			padding-right: 0px;
 		}
 	}
-	.row-fluid > h1 {
-		margin-top: 10px;
-	}
 	.row-fluid > .text-center > img {
 		margin-top: 10px;
 	}
@@ -123,7 +120,7 @@ $title = "Dunne Hall";
 		}
 	}
 	h1 {
-		padding-top: 10px;
+		margin: 25px;
 	}
 	.navbar {
 		border-radius: 0px;
@@ -135,7 +132,7 @@ $title = "Dunne Hall";
 		position: absolute;
 		z-index: 50;
 		width: 17vw;
-		left:6vw;
+		left:6.5vw;
 		top:10vw;
 	}
 	@media(max-width: 1800px){
@@ -148,6 +145,21 @@ $title = "Dunne Hall";
 		#gallery {
 			width: 76vw;
 		}
+	}
+	@font-face {
+    	font-family: hudsonNY;
+    	src: url(<?php echo $root; ?>etc/HudsonNYSerif.ttf);
+    	src: url(<?php echo $root; ?>etc/HudsonNYSerif.otf);
+	}
+	.hudson {
+		font-family: hudsonNY;
+	}
+	.navbar-default .navbar-nav>li>a{
+		color:#282646;
+		font-weight: bold;
+	}
+	h1 {
+		font-family: hudsonNY;
 	}
 </style>
 <link rel="stylesheet" type="text/css" href="<?php echo $root ?>styles/ndbrand.css""/>
