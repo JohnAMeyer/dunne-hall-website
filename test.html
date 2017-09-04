@@ -1,0 +1,18 @@
+<script>
+(function (){
+document.write("<table><tbody>");
+var a,b,c,d;
+for(var i = 0; i < 16; i++){
+	a = i >> 3 & 1;
+	b = i >> 2 & 1;
+	c = i >> 1 & 1;
+	d = i & 1;
+	document.write("<tr><td>" + a + "</td><td>" + b+"</td><td>"+c+"</td><td>"+d+"</td><td>"+ (a*not(c) + a * b * not(d) + a * c * d) + "</td></tr>");
+}
+document.write("</tbody></table>");
+})();
+
+function not(i){
+	return Math.abs(i - 1);
+}
+</script>

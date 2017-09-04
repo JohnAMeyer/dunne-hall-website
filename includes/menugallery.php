@@ -1,7 +1,7 @@
 <?php require "menu.php" ?>
 
-<div class="container-fluid hidden-xs hidden-sm home-link" style="position: absolute;z-index: 50; width: 17vw; left:7vw; top:10vw">
-	<img class="img-responsive center-block" src="<?php echo $root ?>img/logo.jpg"/>
+<div id="float-photo" class="container-fluid hidden-xs hidden-sm home-link">
+	<img class="img-responsive center-block" src="<?php echo $root ?>img/favicon-resource.png"/>
 </div>
 <div class="container-fluid hidden-md hidden-lg hidden-xl" style="height:52px">
 </div>
