@@ -23,7 +23,7 @@ if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false)
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<!--img class="navbar-brand home-link" src="<?php echo $root; ?>img/dunne-bar.png" alt="Dunne Hall"></img--> <a class="navbar-brand home-link hudson" style="font-size:20pt;color:#282646">Dunne <span style="color:#77c152">Hall</span></a>
+					<!--img class="navbar-brand home-link" src="<?php echo $root; ?>img/dunne-bar.png" alt="Dunne Hall"></img--> <a class="navbar-brand home-link hudson" style="color:#282646">Dunne <span style="color:#77c152">Hall</span></a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

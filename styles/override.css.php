@@ -1,7 +1,7 @@
 <?php
 $root = '/';
 if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false)
-	$root = '/dunne/';
+$root = '/dunne/';
 header('Content-Type: text/css');
 ?>
 @media (min-width: 768px) {
@@ -80,7 +80,8 @@ footer a {
 	}
 }
 h1 {
-	margin: 25px;
+	padding: 25px;
+	margin-bottom: 0px;
 }
 .navbar {
 	border-radius: 0px;
@@ -120,4 +121,10 @@ body {
 }
 h1 {
 	font-family: hudsonNY;
+}
+a.navbar-brand {
+	font-size:18pt;
+}
+.col-md-10.col-md-offset-1[style="background-color: #fff"]{
+	padding-bottom: 15px;
 }
