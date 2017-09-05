@@ -3,7 +3,7 @@ $root = '/';
 $imgroot = 'http://whaleoftime.com:49152/';
 if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false){
 	$root = '/dunne/';
-	$imgroot = "localhost/dunne/"
+	$imgroot = "localhost/dunne/";
 }
 if(!isset($description))
 	$description = "Dunne Hall is Notre Dame's newest all-male dorm, located on Mod/East Quad.";
