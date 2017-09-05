@@ -1,7 +1,10 @@
 <?php
 $root = '/';
-if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false)
+$imgroot = 'http://whaleoftime.com:49152/';
+if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false){
 	$root = '/dunne/';
+	$imgroot = "localhost/dunne/"
+}
 if(!isset($description))
 	$description = "Dunne Hall is Notre Dame's newest all-male dorm, located on Mod/East Quad.";
 if(!isset($title))
@@ -21,7 +24,7 @@ if(!isset($title))
 <meta property="og:title" content="Dunne Hall"> <!-- set to h1 content? -->
 <meta property="og:description" content="<?php echo $description; ?>">
 <meta property="og:type" content="website">
-<meta property="og:image" content="<?php echo $root; ?>img/favicon/apple-touch-icon-180x180.png">
+<meta property="og:image" content="<?php echo $imgroot; ?>img/favicon/apple-touch-icon-180x180.png">
 <meta property="og:locale" content="en_US">
 
 <title><?php echo $title; ?></title>
