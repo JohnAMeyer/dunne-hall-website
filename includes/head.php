@@ -13,7 +13,7 @@ if(!isset($title))
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="author" content="Marketing Communications: Web // University of Notre Dame">
+<meta name="author" content="John Meyer">
 <meta name="description" content="<?php echo $description; ?>">
 <meta name="apple-mobile-web-app-title" content="<?php echo $title; ?>">
 <meta name="application-name" content="Dunne Hall">
