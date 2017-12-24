@@ -44,7 +44,8 @@
 					<div class="col-lg-7 col-md-9 col-lg-offset-1">
 						<div class="well">
 							<h2 style="margin-top: 0px;">Dunne Hall Calendar</h2>
-							<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=nd.edu_f4ui4q2m7uu6rch648rgegf580%40group.calendar.google.com&amp;color=%236B3304&amp;ctz=America%2FNew_York" style="border-width:0;width:100%;height:600px" frameborder="0" scrolling="no"></iframe>
+							<iframe id="calendar" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=nd.edu_f4ui4q2m7uu6rch648rgegf580%40group.calendar.google.com&amp;color=%236B3304&amp;ctz=America%2FNew_York" style="border-width:0;width:100%;height:600px" frameborder="0" scrolling="no"></iframe>
+							<p>If not logged in with your ND email account, calendar may fail to show.</p>
 						</div>
 					</div>
 					<div class="col-md-3">
