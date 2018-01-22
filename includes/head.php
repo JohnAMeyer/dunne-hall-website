@@ -48,3 +48,13 @@ if(!isset($title))
 
 <link rel="stylesheet" type="text/css" href="<?php echo $root ?>styles/override.css.php"/>
 <link rel="stylesheet" type="text/css" href="<?php echo $root ?>styles/ndbrand.css"/>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112910517-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112910517-1');
+</script>
