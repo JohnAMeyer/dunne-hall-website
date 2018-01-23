@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /etc/
+Disallow: /includes/
+Disallow: /ibrary/
