@@ -6,7 +6,7 @@ if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false){
 	$imgroot = "localhost/dunne/";
 }
 if(!isset($description))
-	$description = "Dunne Hall is Notre Dame's newest all-male dorm, located on Mod/East Quad.";
+	$description = "Dunne Hall is Notre Dame's newest all-male dorm, located on Mod/East Quad and founded in 2016.";
 if(!isset($title))
 	$title = "Dunne Hall";
 ?>
@@ -20,7 +20,7 @@ if(!isset($title))
 <meta name="twitter:card" content="summary">
 <!--meta name="twitter:site" content="@notredame"-->
 <!--meta name="twitter:creator" content="@ndwebteam"-->
-<meta property="og:site_name" content="Dunne Hall">
+<meta property="og:site_name" content="<?php echo $title; ?>">
 <meta property="og:title" content="Dunne Hall"> <!-- set to h1 content? -->
 <meta property="og:description" content="<?php echo $description; ?>">
 <meta property="og:type" content="website">
@@ -29,6 +29,7 @@ if(!isset($title))
 
 <title><?php echo $title; ?></title>
 
+<!-- Icons -->
 <link rel="apple-touch-icon" sizes="60x60" href="<?php echo $root; ?>img/favicon/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="76x76" href="<?php echo $root; ?>img/favicon/apple-touch-icon-76x76.png">
 <link rel="apple-touch-icon" sizes="120x120" href="<?php echo $root; ?>img/favicon/apple-touch-icon-120x120.png">
