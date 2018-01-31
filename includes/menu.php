@@ -41,6 +41,7 @@ if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false)
 						<!--li><a href="#">Alumni</a></li-->
 						<li><a href="<?php echo $root ?>freshmen.php">Freshmen</a></li>
 						<li><a href="<?php echo $root ?>events.php">Events</a></li>
+						<li><a href="<?php echo $root ?>gallery.php">Gallery</a></li>
 						<li><a href="<?php echo $root ?>4coast.php">4 Coast Floats</a></li>
 					</ul>
 				</div>
