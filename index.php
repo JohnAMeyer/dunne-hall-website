@@ -19,7 +19,10 @@
 					<h1 class="text-center">
 						We are Dunne Men!
 					</h1>
-					<div class="col-md-6 col-md-offset-1">
+					<div class="col-md-4 col-md-push-7">
+						<img class="img-responsive center-block" src="img/dunneair.jpg"></img>
+					</div>
+					<div class="col-md-6 col-md-offset-1 col-md-pull-4">
 						<div class="well">
 							<p class="indented">
 								Dunne is in just its second year which means that we are still forming who we are and what we want to be. Though we do not have many traditions, we do have some basic qualities that identify who we are. Dunne is proud of its community and its willingness to adapt to new events, ideas, qualities, or traditions. We hope whoever comes through Dunne’s doors will be just as willing to contribute to the community and establish Dunne Hall as one of the premier dorms on campus. 
@@ -32,9 +35,6 @@
 								Dunne's colors are Quad Green, Hesburgh Blue and Stonehenge Gray.  They embody our identity and mission.  Quad Green reflects our brotherhood forged as we enjoy sports, cookouts and music on the lawn in front of our hall.  Hesburgh Blue calls to mind the blue waters of the reflecting pool outside of the Hesburgh Library and represents the wisdom and knowledge our residents gain as they study there, developing the "competence to see." Stonehenge Gray echoes the bravery and sacrifice of the men and women who are memorialized in the Clarke Memorial "Stonehenge" Fountain inspiring us to have the "courage to act."
 							</p>
 						</div>
-					</div>
-					<div class="col-md-5">
-						<img class="img-responsive center-block" src="img/dunneair.jpg"></img>
 					</div>
 				</div>
 				<div class="row-fluid">
