@@ -192,3 +192,12 @@ a.carousel-control .carousel-control-background:hover {
 .navbar .navbar-collapse li {
 	text-align: left;
 }
+
+@media(max-width: 500px){
+	#accordion > div > .panel-heading {
+		height: 60px;
+	}
+	#accordion > div > .panel-heading .badge {
+		margin-top: 5px;
+	}
+}

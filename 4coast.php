@@ -11,7 +11,6 @@
 	.menu {
 		background-color: #77c152;
 		padding: 15px;
-		border-radius: 15px;
 	}
 	.panel-group .panel {
 		border-radius: 0px;
@@ -49,13 +48,17 @@
 					<div class="col-md-10 col-md-offset-1">
 						<h1 class="text-center">4 Coast Waffles and Floats</h1>
 					</div>
-					<div class="menu col-md-7 col-md-offset-1">
-						<h3 style="margin-top:5px;" class="text-center">Our Menu</h3>
-						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-							<?php
-							$split_menu = array_slice(file("cache/menu.csv"), 1);
+					<div class="col-md-7 col-md-offset-1">
+						<p class="text-center" style="margin-top:10px;">
+							4 Coast is open every Saturday 9:30PM-1:30AM serving up the best waffles, ice cream floats, and homemade fried chicken north of Eddy Street
+						</p>
+						<div class="menu">
+							<h3 style="margin-top:5px;" class="text-center">Our Menu</h3>
+							<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+								<?php
+								$split_menu = array_slice(file("cache/menu.csv"), 1);
 
-							foreach ($split_menu as $key => $line):
+								foreach ($split_menu as $key => $line):
 								$split_line = str_getcsv($line);//item, price, description/addt'l info, options
 								?>
 								<div class="panel panel-default">
@@ -130,17 +133,39 @@
 									<?php endif; ?>
 								</div>
 							<?php endforeach; ?>
-
 						</div>
 					</div>
-					<div class="col-md-3 text-center">
-						<h4>Order Online and Like Our Page!</h4>
-						<div class="fb-page" data-href="https://www.facebook.com/pg/4CoastDunneHall" data-width="500" data-height="500" data-tabs="messages, timeline"></div>
-					</div>
+				</div>
+				<div class="col-md-3 text-center">
+					<h4>Order Online and Like Our Page!</h4>
+					<div class="fb-page" data-href="https://www.facebook.com/pg/4CoastDunneHall" data-width="500" data-height="500" data-tabs="messages, timeline"></div>
+				</div>
+			</div>
+			<div class="row-fluid">
+				<div class="col-md-8 col-md-offset-2">
+					<hr />
+					<h2 class="text-center">
+						About Us
+					</h2>
+					<p class="indented">
+						It all started when four sentinels--Mark, Brady, Robby, and Patrick--from four coasts of the U.S. joined forces in March 2017. Their mission was simple: to undergo a delicious operation for the good of their brother sentinels. After some number crunching and collective dreams of quality waffles and ice cream floats, the business set "sale." The current owners are:
+					</p>
+					<ul>
+						<li>
+							Mark Fedoronko, an energetic foodie, who is a sophomore from New York studying accounting and international economics
+						</li>
+						<li>
+							Patrick Quinn, a hard-working, confident athlete from the wild and beautiful state of Oregon, and is a sophomore studying neuroscience and behavior
+						</li>
+						<li>
+							Brady Stiller (aka "the Lady Killer"), a man excited to bring great food to the Dunne community and is from Louisiana
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
-	<?php require "includes/footer.php" ?>
+</div>
+<?php require "includes/footer.php" ?>
 </body>
 </html>
