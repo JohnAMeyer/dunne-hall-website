@@ -24,16 +24,19 @@
 					</div>
 					<div class="col-md-6 col-md-offset-1 col-md-pull-4">
 						<div class="well">
-							<p class="indented">
-								Dunne is in just its second year which means that we are still forming who we are and what we want to be. Though we do not have many traditions, we do have some basic qualities that identify who we are. Dunne is proud of its community and its willingness to adapt to new events, ideas, qualities, or traditions. We hope whoever comes through Dunne’s doors will be just as willing to contribute to the community and establish Dunne Hall as one of the premier dorms on campus. 
-							</p>
-							<h3>Dorm Mascot, Motto and Colors</h3>
-							<p class="indented">
-								Dunne Hall is the home of the Sentinels.  Since our hall is located near the east gate into campus, a guardian or watchman was a fitting symbol.  In addition, Dunne Hall's motto is Potentia Videre, Fortitudo Agere "the competence to see and the courage to act."  The motto comes from the Constitutions of the Congregation of Holy Cross. For us, it means that in Dunne Hall we grow in our ability to recognize injustice and understand life's challenges, and then we work to make the world a better place, supported by our brothers.  A sentinel is a watchman and so he must keep vigil and keep watch for danger as well as act when necessary to protect others and raise the alarm.
-							</p>
-							<p class="indented">
-								Dunne's colors are Quad Green, Hesburgh Blue and Stonehenge Gray.  They embody our identity and mission.  Quad Green reflects our brotherhood forged as we enjoy sports, cookouts and music on the lawn in front of our hall.  Hesburgh Blue calls to mind the blue waters of the reflecting pool outside of the Hesburgh Library and represents the wisdom and knowledge our residents gain as they study there, developing the "competence to see." Stonehenge Gray echoes the bravery and sacrifice of the men and women who are memorialized in the Clarke Memorial "Stonehenge" Fountain inspiring us to have the "courage to act."
-							</p>
+							<?php
+							$arr = file("cache/home.txt");
+							foreach ($arr as $line){
+								if ($line[0] == '$'):
+								?>
+								<h3> <?php echo substr($line, 1); ?> </h3>
+								<?php else: ?>
+								<p class="indented">
+									<?php echo $line; ?> 
+								</p>
+								<?php endif;
+							}
+							?>
 						</div>
 					</div>
 				</div>

@@ -5,6 +5,13 @@ file_put_contents("menu.csv", fopen("https://docs.google.com/spreadsheets/export
 
 file_put_contents("leaders.txt", fopen("https://docs.google.com/document/export?id=1ons756KnNCn2LXkWmxPwEwAuHpLwSpLLofPAQBxtsqs&exportFormat=txt", 'r'));
 
+file_put_contents("identity.txt", fopen("https://docs.google.com/document/export?id=1qBIkyhN4cJALoSCK87il7NJdXNiw-tuWhd-GBChB6Tc&exportFormat=txt", 'r'));
+
+file_put_contents("events.txt", fopen("https://docs.google.com/document/export?id=14xr-TIgIwRW4qo7qwva_LRW9U3NOoL9Y40wEqMdajxs&exportFormat=txt", 'r'));
+
+file_put_contents("home.txt", fopen("https://docs.google.com/document/export?id=1Pka73KsWrETL8e_B7u-r4Wg-cAJTnwWom3MPE-Wz-QM&exportFormat=txt", 'r'));
+
+/*	---------------------	Leaders	---------------------	*/
 $arr = array_reverse(file("https://docs.google.com/document/export?id=1ons756KnNCn2LXkWmxPwEwAuHpLwSpLLofPAQBxtsqs&exportFormat=txt"));
 
 $html = '<div class="hidden-xs hidden-sm hidden-md">';
@@ -92,6 +99,8 @@ foreach ($titles as $title => $x) {
 $html .= "</div></div>";
 
 file_put_contents("leaders.html",$html);
+
+/*	---------------------	Gallery	---------------------	*/
 
 file_put_contents("gallery.txt", fopen("https://docs.google.com/document/export?id=1fkLMzWBM-iqV8AeV2AHryNQDrwCaXyOFCS7cQdrnQCw&exportFormat=txt", 'r'));
 $arr = file("gallery.txt");
