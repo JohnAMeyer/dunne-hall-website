@@ -201,3 +201,6 @@ a.carousel-control .carousel-control-background:hover {
 		margin-top: 5px;
 	}
 }
+p {
+    font-size: 15px;
+}
