@@ -1,10 +1,8 @@
+<?php if($base = getenv('DUNNE_HALL_BASE')): //include base tag only if defined in environment
+?>
+<base href="<?php echo $base; ?>">
+<?php endif; ?>
 <?php
-$root = '/';
-$imgroot = 'http://whaleoftime.com:49152/';
-if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false){
-	$root = '/dunne/';
-	$imgroot = "localhost/dunne/";
-}
 if(!isset($description))
 	$description = "Dunne Hall is Notre Dame's newest all-male dorm, located on Mod/East Quad and founded in 2016.";
 if(!isset($title))
@@ -24,31 +22,31 @@ if(!isset($title))
 <meta property="og:title" content="Dunne Hall"> <!-- set to h1 content? -->
 <meta property="og:description" content="<?php echo $description; ?>">
 <meta property="og:type" content="website">
-<meta property="og:image" content="<?php echo $imgroot; ?>img/favicon/apple-touch-icon-180x180.png">
+<meta property="og:image" content="img/favicon/apple-touch-icon-180x180.png">
 <meta property="og:locale" content="en_US">
 
 <title><?php echo $title; ?></title>
 
 <!-- Icons -->
-<link rel="apple-touch-icon" sizes="60x60" href="<?php echo $root; ?>img/favicon/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="76x76" href="<?php echo $root; ?>img/favicon/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="120x120" href="<?php echo $root; ?>img/favicon/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="152x152" href="<?php echo $root; ?>img/favicon/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="<?php echo $root; ?>img/favicon/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="32x32" href="<?php echo $root; ?>img/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="<?php echo $root; ?>img/favicon/favicon-16x16.png">
-<link rel="manifest" href="<?php echo $root; ?>img/favicon/manifest.json">
-<link rel="mask-icon" href="<?php echo $root; ?>img/favicon/safari-pinned-tab.svg" color="#5bbad5">
-<link rel="shortcut icon" href="<?php echo $root; ?>img/favicon/favicon.ico">
-<meta name="msapplication-config" content="<?php echo $root; ?>img/favicon/browserconfig.xml">
+<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="manifest" href="img/favicon/manifest.json">
+<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="img/favicon/favicon.ico">
+<meta name="msapplication-config" content="img/favicon/browserconfig.xml">
 <meta name="theme-color" content="#78c351">
 
-<link href="<?php echo $root; ?>styles/bootstrap.min.css" rel="stylesheet">
+<link href="styles/bootstrap.min.css" rel="stylesheet">
 
 <script type="text/javascript" async="" id="ndalertbarscript" src="//emergency.nd.edu/api/alert/"></script>
 
-<link rel="stylesheet" type="text/css" href="<?php echo $root ?>styles/override.css.php"/>
-<link rel="stylesheet" type="text/css" href="<?php echo $root ?>styles/ndbrand.css"/>
+<link rel="stylesheet" type="text/css" href="styles/override.css.php"/>
+<link rel="stylesheet" type="text/css" href="styles/ndbrand.css"/>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112910517-1"></script>

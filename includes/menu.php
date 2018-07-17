@@ -1,8 +1,3 @@
-<?php
-$root = '/';
-if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false)
-	$root = '/dunne/';
-?>
 <nav class="nd-brand nd-grey">
 	<div class="nd-row nd-row-container">
 		<ul class="nd-column">
@@ -23,7 +18,7 @@ if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false)
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<!--img class="navbar-brand home-link" src="<?php echo $root; ?>img/dunne-bar.png" alt="Dunne Hall"></img--> <a class="navbar-brand home-link hudson" style="color:#282646">Dunne <span style="color:#77c152">Hall</span></a>
+					<!--img class="navbar-brand home-link" src="img/dunne-bar.png" alt="Dunne Hall"></img--> <a class="navbar-brand home-link hudson" style="color:#282646">Dunne <span style="color:#77c152">Hall</span></a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -32,17 +27,17 @@ if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false)
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="<?php echo $root ?>about/leaders.php">Leadership</a></li>
-								<!--li><a href="<?php echo $root ?>/about/dunne.php">J. Dunne</a></li-->
-								<li><a href="<?php echo $root ?>about/identity.php">Identity</a></li>
-								<li><a href="<?php echo $root ?>about/newsletter.php">Newsletter</a></li>
+								<li><a href="about/leaders.php">Leadership</a></li>
+								<!--li><a href="/about/dunne.php">J. Dunne</a></li-->
+								<li><a href="about/identity.php">Identity</a></li>
+								<li><a href="about/newsletter.php">Newsletter</a></li>
 							</ul>
 						</li>
 						<!--li><a href="#">Alumni</a></li-->
-						<li><a href="<?php echo $root ?>freshmen.php">Freshmen</a></li>
-						<li><a href="<?php echo $root ?>events.php">Events</a></li>
-						<li><a href="<?php echo $root ?>gallery.php">Gallery</a></li>
-						<li><a href="<?php echo $root ?>4coast.php">4 Coast Floats</a></li>
+						<li><a href="freshmen.php">Freshmen</a></li>
+						<li><a href="events.php">Events</a></li>
+						<li><a href="gallery.php">Gallery</a></li>
+						<li><a href="4coast.php">4 Coast Floats</a></li>
 					</ul>
 				</div>
 			</nav>

@@ -1,7 +1,4 @@
 <?php
-$root = '/';
-if(strpos(dirname(__FILE__),'DunneHallWebsite')!== false)
-$root = '/dunne/';
 header('Content-Type: text/css');
 ?>
 @media (min-width: 768px) {
@@ -109,8 +106,8 @@ body {
 }
 @font-face {
 	font-family: hudsonNY;
-	src: url(<?php echo $root; ?>etc/HudsonNYSerif.ttf);
-	src: url(<?php echo $root; ?>etc/HudsonNYSerif.otf);
+	src: url(HudsonNYSerif.ttf);
+	src: url(HudsonNYSerif.otf);
 }
 .hudson {
 	font-family: hudsonNY;
