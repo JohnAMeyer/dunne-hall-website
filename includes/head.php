@@ -1,6 +1,8 @@
 <?php if($base = getenv('DUNNE_HALL_BASE')): //include base tag only if defined in environment
 ?>
 <base href="<?php echo $base; ?>">
+<?php else : ?>
+<base href="/">
 <?php endif; ?>
 <?php
 if(!isset($description))
