@@ -37,7 +37,6 @@
 						<li><a href="freshmen.php">Freshmen</a></li>
 						<li><a href="events.php">Events</a></li>
 						<li><a href="gallery.php">Gallery</a></li>
-						<li><a href="4coast.php">4 Coast Floats</a></li>
 					</ul>
 				</div>
 			</nav>

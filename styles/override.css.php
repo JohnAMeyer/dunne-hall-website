@@ -6,7 +6,7 @@ header('Content-Type: text/css');
 		width: 20%;
 	}
 	.nav > li {
-		width:20%
+		width: 25%;
 	}
 }
 .nav.navbar-nav {
@@ -187,6 +187,9 @@ a.carousel-control .carousel-control-background:hover {
 }
 
 .navbar .navbar-collapse li {
+	text-align: center;
+}
+.dropdown-menu > li > * {
 	text-align: left;
 }
 
